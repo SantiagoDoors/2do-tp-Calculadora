@@ -1,0 +1,35 @@
+<!doctype html>
+	<head>
+		<title>Kenko S.U.P.E.R</title>
+		<link type="text/css" rel="stylesheet" href="hoja.css">
+	</head>
+
+	<body>
+		
+		<div id="div_id">
+			<form name="kenko" id="kenko">
+				<input type="textfield" name="pantalla" id="pantalla_id" placeholder="Kenko S.U.P.E.R" value="" autocomplete="off" readonly>
+				<br>
+				<input type="button" class="gris" value="7" onclick="document.kenko.pantalla.value+='7'">
+				<input type="button" class="gris" value="8" onclick="document.kenko.pantalla.value+='8'">
+				<input type="button" class="gris" value="9" onclick="document.kenko.pantalla.value+='9'">
+				<input type="button" class="azul" value="+" onclick="document.kenko.pantalla.value+='+'">
+				<br>
+				<input type="button" class="gris" value="4" onclick="document.kenko.pantalla.value+='4'">
+				<input type="button" class="gris" value="5" onclick="document.kenko.pantalla.value+='5'">
+				<input type="button" class="gris" value="6" onclick="document.kenko.pantalla.value+='6'">
+				<input type="button" class="azul" value="-" onclick="document.kenko.pantalla.value+='-'">
+				<br>
+				<input type="button" class="gris" value="1" onclick="document.kenko.pantalla.value+='1'">
+				<input type="button" class="gris" value="2" onclick="document.kenko.pantalla.value+='2'">
+				<input type="button" class="gris" value="3" onclick="document.kenko.pantalla.value+='3'">
+				<input type="button" class="azul" value="x" onclick="document.kenko.pantalla.value+='*'">
+				<br>
+				<input type="button" class="gris" value="0" onclick="document.kenko.pantalla.value+='0'">
+				<input type="button" class="rojo" value="=" onclick="document.kenko.pantalla.value=eval(document.kenko.pantalla.value)">
+				<input type="reset" class="rojo" value="C">
+				<input type="button" class="azul" value="/" onclick="document.kenko.pantalla.value+='/'">
+			</form>	
+		</div>
+
+	</body>
